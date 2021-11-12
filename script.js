@@ -28,9 +28,36 @@ function drawSnake(){
     ctx.fillRect(headX * tileCount, headY* tileCount, tileSize,tileSize)
 }
 
-document.body.addEventListener();
+document.body.addEventListener('keydown', keyDown);
+
+function keyDown(event){
+     //up
+    if(event,keyCode == 38){
+    
+    }
+}
 
 
 drawGame();
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function fullScreen(){
+document.getElementById("snake").style.pseudo-class."full-screen";
+}
