@@ -53,11 +53,3 @@ drawGame();
 
 
 
-
-
-
-
-
-function fullScreen(){
-document.getElementById("snake").style.pseudo-class."full-screen";
-}
